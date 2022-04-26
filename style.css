@@ -1,0 +1,63 @@
+:root{
+    --gradient:linear-gradient(90deg,#f1c40f,#f39c12);
+}
+
+*{
+    font-family: 'open sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    border:none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 2rem;
+    /* background: #f39c12; */
+    color:#fff;
+    
+}
+
+.image{
+    width: 10rem;
+    height: 3.5rem;
+}
+
+.navbarImg{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 207, 219);
+}
+
+.centerText{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    position: absolute;
+    top: 25rem;
+    left: 10rem;
+    font-size: 2rem;
+}
+
+.bgImg{
+    width: 100%;
+    position: relative;
+}
+.btn{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #10adb9;
+    border-radius: 2rem;
+}
+
+.nextPageImg{
+    color: white;
+}

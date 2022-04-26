@@ -1,0 +1,42 @@
+@import url(/style.css);
+@import url(/home.css);
+
+.login_box {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.login_div{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 1rem;
+    box-shadow: var(--box-shadow);
+    margin-top: 4rem;
+    border-radius: var(--border-radius);
+}
+
+.forgot_password_div {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.login_input {
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    outline: none;
+}
+
+.createAccount {
+    display: flex;
+    justify-content: center;
+
+}
+
+.login_signup_link {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
